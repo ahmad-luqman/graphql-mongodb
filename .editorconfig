@@ -1,3 +1,5 @@
-  [*.{js,ts}]
-  indent_style = space
-  tab_width = 2
+root = true
+
+[*.{ts}]
+indent_style = space
+tab_width = 2
