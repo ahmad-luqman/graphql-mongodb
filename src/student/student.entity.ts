@@ -6,11 +6,11 @@ export class Student {
   _id: string;
 
   @PrimaryColumn()
-  id: string;
+  id!: string;
 
   @Column()
-  firstName: string;
+  firstName!: string;
 
   @Column()
-  lastName: string;
+  lastName!: string;
 }
